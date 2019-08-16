@@ -1,0 +1,17 @@
+{
+  "name": "fe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/http-server/bin/http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "lorem-ipsum": "^2.0.3",
+    "random-datetime": "^1.0.1"
+  }
+}
