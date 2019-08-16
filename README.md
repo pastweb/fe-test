@@ -14,9 +14,9 @@ npm run start
 ```
 ### Description
  - Given the `public/index.html` and `public/messages.json` files, print the messages inside the tags with the `messages` class with the data-max between 10 and 50 included, using the html template as in the `template.html` file.
- - Each list will start with an header where put inside the Team name in capital letters and no `_`.
+ - Each list will start with an header where put inside the Team Name in capital letters and no `_`.
  - the number of the messages have to respect the indication of the `data-max` attribute present in each messages tag.
- - the messges have to be sorted in a descendent order
+ - the messges have to be sorted for timestamp in a descendent order
  - the date-time have to be printed as indicated in the `template.html` file.
 
 ### Not essential:
