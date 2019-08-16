@@ -18,6 +18,7 @@ npm run start
  - the number of the messages have to respect the indication of the `data-max` attribute present in each messages tag.
  - the messges have to be sorted for timestamp in a descendent order
  - the date-time have to be printed as indicated in the `template.html` file.
+ - this is a vanilla javascript test so please don't add any additional library.
 
 ### Not essential:
   - add some css style it would be nice to see :)
