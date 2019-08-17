@@ -23,13 +23,13 @@ const messages = {
 
 const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
-const avatars = fs.readdirSync('./public/avatars');
+const avatars = fs.readdirSync('./public/imgs/avatars');
 
 Object.values(messages).forEach(value => {
   for(let i=0; i<100; i++){
     value.push({
       time: randomDate(),
-      pic: `/avatars/${avatars[randomIntFromInterval(0, avatars.length-1)]}`,
+      pic: `/imgs/avatars/${avatars[randomIntFromInterval(0, avatars.length-1)]}`,
       text: lorem.generateSentences(1),
     });
   }
