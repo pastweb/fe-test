@@ -1,6 +1,6 @@
-# Mailonline Front-end test
+# Front-end test
 
-Welcome to Mailonline Ads Front-end test. Take your time to setup your environment.
+Welcome to Front-end test. Take your time to setup your environment.
 
 ### requirement:
   - git
@@ -36,4 +36,3 @@ npm run test
 ## Important
 
 We wish you good luck!
-Mailonline Ads Team
